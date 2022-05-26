@@ -14,7 +14,7 @@ export async function getStaticPaths() {
   clint.close();
 
   return {
-    fallback: false,
+    fallback: true,
     paths: meetups.map((meetup) => ({
       params: { meetupId: meetup._id.toString() },
     })),
