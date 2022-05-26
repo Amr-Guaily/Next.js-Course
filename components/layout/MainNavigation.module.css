@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #77002e;
+  padding: 1rem 1.5rem;
+}
+
+.header .title {
+  color: #fff;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+}
+
+.badge {
+  background-color: #cc2062;
+  color: #fff;
+  border-radius: 12px;
+  padding: 0 1rem;
+  margin-left: 0.5rem;
+}
